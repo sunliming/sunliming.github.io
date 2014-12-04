@@ -1,0 +1,12 @@
+# Site settings
+title: Liming's GitHub Home
+email: mail.sunliming@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hello, World!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sunliming.github.io" # the base hostname & protocol for your site
+twitter_username: jupiterxp
+github_username:  sunliming
+
+# Build settings
+markdown: kramdown
