@@ -26,7 +26,7 @@ set HOME=
 
 git config --system core.fileMode false  
 git config --global core.quotepath false  
-git config --global user.name "<font color="red">你的显示名</font>"  
+git config --global user.name "<font color="red">你的显示名</font>"   
 git config --global user.email "<font color="red">你的电子邮件”</font>  
 git config --system alias.st status  
 git config --system alias.ci commit  
