@@ -15,13 +15,13 @@ categories: git
 
 # 2.1.让cygwin可以正确输入中文
 
-编辑C:\cygwin\home\\<font color="red">你的用户名</font>\\.inputrc文件，将
->“set completion-ignore-case on”  
+编辑C:\cygwin\home\\<font color="red">你的用户名</font>\\.inputrc文件，将  
+>set completion-ignore-case on  
 前面的#去掉
 
 # 2.2.编辑C:\cygwin\cygwin.bat
 
-在开头加入一行:
+在开头加入一行:  
 >set HOME=
 
 # 2.3.开始菜单中打开 Cygwin Terminal，执行以下命令:
