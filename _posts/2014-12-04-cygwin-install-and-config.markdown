@@ -45,7 +45,11 @@ categories: git
 
 # 2.5.生成密钥对
 
-ssh-keygen, 一路回车. 
+在Cygwin终端窗口内运行以下命令:
+
+>ssh-keygen
+
+一路回车. 
 
 [cygwin-install]: http://cygwin.com/install.html
 [context-menu-reg]: /files/cygwin.context.menu.reg.zip
