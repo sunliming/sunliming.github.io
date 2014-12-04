@@ -24,13 +24,21 @@ set HOME=
 # 2.3.开始菜单中打开 Cygwin Terminal，执行以下命令:
 
 git config --system core.fileMode false
+
 git config --global core.quotepath false
+
 git config --global user.name "你的显示名"
+
 git config --global user.email "你的电子邮件”
+
 git config --system alias.st status
+
 git config --system alias.ci commit
+
 git config --system alias.co checkout
+
 git config --system alias.br branch
+
 git config --global color.ui true
 
 # 2.4.增加文件夹上下文菜单
