@@ -36,7 +36,7 @@ git config --global color.ui true
 
 # 2.4.增加文件夹上下文菜单
 
-导入注册表文件cygwin.context.menu.reg, 就可以在文件夹空白处鼠标右键直接打开cygwin的命令行窗体了；
+导入注册表文件[cygwin.context.menu.reg][context-menu-reg], 就可以在文件夹空白处鼠标右键直接打开cygwin的命令行窗体了；
 
 # 2.5.生成密钥对
 
@@ -52,3 +52,4 @@ print_hi('Tom')
 {% endhighlight %}
 
 [cygwin-install]: http://cygwin.com/install.html
+[context-menu-reg]: /files/cygwin.context.menu.reg.zip
