@@ -42,14 +42,5 @@ git config --global color.ui true
 
 ssh-keygen, 一路回车. 
 
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
 [cygwin-install]: http://cygwin.com/install.html
 [context-menu-reg]: /files/cygwin.context.menu.reg.zip
