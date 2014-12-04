@@ -15,24 +15,26 @@ categories: git
 
 # 2.1.让cygwin可以正确输入中文
 
-编辑C:\cygwin\home\\<font color="red">你的用户名</font>\\.inputrc文件，将 “set completion-ignore-case on” 前面的#去掉
+编辑C:\cygwin\home\\<font color="red">你的用户名</font>\\.inputrc文件，将
+>“set completion-ignore-case on”  
+前面的#去掉
 
 # 2.2.编辑C:\cygwin\cygwin.bat
 
 在开头加入一行:
-set HOME=
+>set HOME=
 
 # 2.3.开始菜单中打开 Cygwin Terminal，执行以下命令:
 
 >git config --system core.fileMode false  
 >git config --global core.quotepath false  
-git config --global user.name "<font color="red">你的显示名</font>"   
-git config --global user.email "<font color="red">你的电子邮件”</font>  
-git config --system alias.st status  
-git config --system alias.ci commit  
-git config --system alias.co checkout  
-git config --system alias.br branch  
-git config --global color.ui true  
+>git config --global user.name "<font color="red">你的显示名</font>"   
+>git config --global user.email "<font color="red">你的电子邮件”</font>  
+>git config --system alias.st status  
+>git config --system alias.ci commit  
+>git config --system alias.co checkout  
+>git config --system alias.br branch  
+>git config --global color.ui true  
 
 # 2.4.增加文件夹上下文菜单
 
