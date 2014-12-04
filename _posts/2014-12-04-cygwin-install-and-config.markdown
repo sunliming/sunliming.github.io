@@ -15,7 +15,7 @@ categories: git
 
 # 2.1.让cygwin可以正确输入中文
 
-编辑C:\cygwin\home\你的用户名\.inputrc文件，将 “set completion-ignore-case on” 前面的#去掉
+编辑C:\cygwin\home\你的用户名\\.inputrc文件，将 “set completion-ignore-case on” 前面的#去掉
 
 # 2.2.编辑C:\cygwin\cygwin.bat
 
