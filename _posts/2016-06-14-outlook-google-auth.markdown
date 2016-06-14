@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Outlook帐号使用Google两步验证"
-date:   2016-06-14 08:24:00
+date:   2016-06-14 00:24:00
 categories: git
 ---
 
