@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DeviceList配置指南"
+title:  "DeviceList配置注意事项"
 date:   2016-07-27 00:00:00
 categories: git
 ---
