@@ -141,8 +141,8 @@ categories: git
 
 * U创车型分类器配置:  
 
- * dllname: vehtype_uc_g2.dll  
- * 复制 **vehtype_uc_g2.dll** 和 **CarTypeUC** 文件夹至 **toll** 中;  
- * 编辑 **CarTypeUC** 中的 **autovehtypeUC.ini**, 设置正确的设备IP地址, 如设备具有车牌识别功能（可以咨询硬件施工方），则 "G25标记=1", 否则是0；  
+  * dllname: vehtype_uc_g2.dll  
+  * 复制 **vehtype_uc_g2.dll** 和 **CarTypeUC** 文件夹至 **toll** 中;  
+  * 编辑 **CarTypeUC** 中的 **autovehtypeUC.ini**, 设置正确的设备IP地址, 如设备具有车牌识别功能（可以咨询硬件施工方），则 "G25标记=1", 否则是0；  
 
 
