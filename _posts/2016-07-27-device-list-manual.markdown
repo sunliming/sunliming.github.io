@@ -5,9 +5,9 @@ date:   2016-07-27 00:00:00
 categories: git
 ---
 
-版本: v1.1  
+版本: v1.2  
 创建时间: 2016-07-27  
-最后更新: 2016-08-03  
+最后更新: 2016-08-08  
  
 ## IO设备  
 
@@ -142,6 +142,10 @@ categories: git
 * U创车型分类器配置:  
   * dllname: vehtype_uc_g2.dll  
   * 复制 **vehtype_uc_g2.dll** 和 **CarTypeUC** 文件夹至 **toll** 中;  
-  * 编辑 **CarTypeUC** 中的 **autovehtypeUC.ini**, 设置正确的设备IP地址, 如设备具有车牌识别功能（可以咨询硬件施工方），则 "G25标记=1", 否则是0；  
-
+  * 编辑 **CarTypeUC** 中的 **autovehtypeUC.ini**, 设置正确的设备IP地址, 如设备具有车牌识别功能（可以咨询硬件施工方），则 "G25标记=1", 否则是0； 
+* 朗为车型分类器配置:
+  * dllname: vehtype_runwell_avc.dll  
+  * 复制 vehtype_runwell_avc.dll、HeiAVCConfig.ini、TRP_VPDCommDll.dll、TRP_VPDConfig.ini 四个文件至文件夹;  
+  * 编辑 HeiAVCConfig.ini, EnableLPNR = yes, EnableSoftTrigger = no;（可与现场施工人员确认此配置）;  
+  * 编辑 TRP_VPDConfig.ini, 将抓拍器IP配置正确（可与现场施工人员确认此IP）;  
 
